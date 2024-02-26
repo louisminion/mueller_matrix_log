@@ -1,3 +1,6 @@
+! Reads a csv from B23 Mueller polarimeter and performs Mueller matrix decomposition on each matrix in the array.
+! There is a suspected bug in the matrix log algorithm due to mismatch with python program results.
+! © Louis Minion 2023. Released under GNU GPL V3.
 program mueller
     implicit none
     ! Variable declaration
